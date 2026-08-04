@@ -1,6 +1,6 @@
 # Llama Beta — llamabeta.com
 
-Marketing site for **Beta Fund**, the fund for the agent-native era.
+Marketing site for the **Llama Beta Fellowship**, the fellowship for the agent-native era.
 $200K first check, up to $2M across pre-seed and seed. Global.
 
 ## Architecture
@@ -42,7 +42,7 @@ Zip the site contents at root and deploy to app `app_oh23tcj73owo`, framework
 `static`:
 
 ```bash
-cd betafund-site-mpa
+cd llamabeta-site
 zip -r frontend.zip index.html thesis.html companies.html fellowship.html apply.html css js assets
 # create_frontend_deployment {app_id, framework:"static"} -> uploadUrl
 # curl -X PUT "<uploadUrl>" -H "Content-Type: application/zip" --data-binary @frontend.zip
