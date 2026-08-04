@@ -1,5 +1,5 @@
 /* ============================================================
-   Beta Fund — shared site JS (vanilla, multi-page)
+   Llama Beta Fellowship — shared site JS (vanilla, multi-page)
    Ported from the DC-runtime build. Feature-detects per page.
    ============================================================ */
 (function () {

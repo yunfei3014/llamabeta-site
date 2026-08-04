@@ -1,6 +1,6 @@
 /* ============================================================
-   Beta Fund — shared design system (multi-page static)
-   Yellow editorial. Mobile-first.
+   Llama Beta Fellowship — shared design system (multi-page static)
+   Cream + green editorial. Mobile-first.
    ============================================================ */
 :root{
   --accent:#008442;
@@ -56,7 +56,7 @@ canvas{display:block}
 }
 .brand{display:flex;align-items:center;gap:11px;font-weight:700;font-size:18px;letter-spacing:-.02em;color:#000}
 .brand .mark{width:13px;height:13px;background:#000;display:inline-block}
-.brand-logo{height:15px;width:auto;display:block}
+.brand-word{font-weight:700;font-size:clamp(15px,1.5vw,18px);letter-spacing:-.02em;white-space:nowrap;line-height:1}
 .nav-links{display:flex;align-items:center;gap:clamp(20px,3vw,44px)}
 .nav-links a{
   font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#000;
@@ -309,7 +309,7 @@ main{display:block;background:var(--ink)}
 .footer-grid .fbrand{min-width:240px}
 .footer-grid .fbrand a{display:inline-flex;align-items:center;gap:12px;font-weight:700;font-size:24px;letter-spacing:-.02em}
 .footer-grid .fbrand .mark{width:15px;height:15px;background:var(--accent);display:inline-block}
-.fbrand-logo{height:17px;width:auto;display:block}
+.fbrand-word{font-weight:700;font-size:18px;letter-spacing:-.02em;white-space:nowrap;line-height:1;color:#fff;display:inline-block}
 .footer-grid .fbrand p{margin:20px 0 0;max-width:340px;font-size:15px;line-height:1.5;color:rgba(255,255,255,.55)}
 .fcol .ftitle{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.6);margin-bottom:18px}
 .fcol .flist{display:flex;flex-direction:column;gap:12px;font-size:15px}
