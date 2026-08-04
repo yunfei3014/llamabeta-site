@@ -1,4 +1,4 @@
-# Beta Fund — betafund.ai
+# Llama Beta — llamabeta.com
 
 Marketing site for **Beta Fund**, the fund for the agent-native era.
 $200K first check, up to $2M across pre-seed and seed. Global.
