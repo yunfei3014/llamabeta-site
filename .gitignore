@@ -1,0 +1,4 @@
+.DS_Store
+*.zip
+.gstack/
+node_modules/

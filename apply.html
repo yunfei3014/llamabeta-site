@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Apply — Beta Fund</title>
+<meta name="description" content="Apply to the Llama Beta Fellowship. 20 founders per cohort, $200K first check up to $2M, pre-seed to seed, global. Tell us what you're building.">
+<meta property="og:title" content="Apply — Beta Fund">
+<meta property="og:description" content="Apply to the Llama Beta Fellowship. 20 founders per cohort, $200K first check up to $2M, pre-seed to seed, global. Tell us what you're building.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#008442">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23008442'/%3E%3Crect x='9' y='9' width='14' height='14' fill='%23000'/%3E%3C/svg%3E">
+<meta property="og:image" content="https://llamabeta.com/assets/og.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<div id="mcursor"></div>
+
+<header class="site-header">
+  <a href="/" class="brand" data-magnetic aria-label="Beta Fund — home"><img class="brand-logo" src="/assets/logo.png" alt="Beta Fund"></a>
+  <nav class="nav-links" aria-label="Primary">
+    <a href="/thesis">RFE</a>
+    <a href="/companies">Companies</a>
+    <a href="/fellowship">Fellowship</a>
+  </nav>
+  <a href="/apply" class="nav-cta" data-magnetic aria-current="page">Apply <span>→</span></a>
+  <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav"><span></span><span></span><span></span></button>
+</header>
+<nav id="mobileNav" class="mobile-nav" aria-label="Mobile">
+  <a href="/thesis">RFE <span class="num">01</span></a>
+  <a href="/companies">Companies <span class="num">02</span></a>
+  <a href="/fellowship">Fellowship <span class="num">03</span></a>
+  <a href="/apply" aria-current="page">Apply <span class="num">04</span></a>
+  <a href="/apply" class="m-cta">Apply to the fellowship →</a>
+  <div class="m-meta">$200K first check · up to $2M</div>
+</nav>
+
+<main id="main" tabindex="-1">
+  <section class="section section-pad-top bg-ink">
+    <div class="wrap">
+      <div class="apply-hero">
+        <div class="eyebrow acc" data-reveal style="margin-bottom:30px">Llama Beta Fellowship</div>
+        <h1 data-reveal data-d="60">Building something ambitious?</h1>
+        <p class="lead" data-reveal data-d="140">We'd love to hear what you're working on. We invest where conviction begins — apply to join the next Beta cohort.</p>
+        <div class="apply-pills" data-reveal data-d="180">
+          <span>20 founders / cohort</span>
+          <span>$200K first check → up to $2M</span>
+          <span>Pre-seed → Seed</span>
+          <span>Global</span>
+        </div>
+      </div>
+
+      <form id="applyForm" data-reveal data-d="220" novalidate>
+        <div class="hp" aria-hidden="true">
+          <label for="a_hp">Leave this field empty</label>
+          <input id="a_hp" name="website" type="text" tabindex="-1" autocomplete="off">
+        </div>
+        <div>
+          <label for="a_name">Full name</label>
+          <input id="a_name" name="name" type="text" autocomplete="name" placeholder="Your name" required>
+        </div>
+        <div>
+          <label for="a_email">Email</label>
+          <input id="a_email" name="email" type="email" autocomplete="email" placeholder="you@company.com" required>
+        </div>
+        <div>
+          <label for="a_company">Company / project</label>
+          <input id="a_company" name="company" type="text" placeholder="What it's called">
+        </div>
+        <div>
+          <label for="a_location">Location</label>
+          <input id="a_location" name="location" type="text" placeholder="City, Country">
+        </div>
+        <div class="af-full">
+          <label for="a_links">Links</label>
+          <input id="a_links" name="links" type="text" placeholder="Website · LinkedIn · GitHub · X">
+        </div>
+        <div>
+          <label for="a_founder_li">Founder LinkedIn</label>
+          <input id="a_founder_li" name="founder_linkedin" type="url" autocomplete="url" placeholder="https://linkedin.com/in/…">
+        </div>
+        <div>
+          <label for="a_cofounder_li">Co-founder LinkedIn</label>
+          <input id="a_cofounder_li" name="cofounder_linkedin" type="url" autocomplete="url" placeholder="https://linkedin.com/in/… (if any)">
+        </div>
+        <div>
+          <label for="a_thesis">RFE area</label>
+          <select id="a_thesis" name="thesis_area">
+            <option value="">Select…</option>
+            <option>Agent Infrastructure</option>
+            <option>AI Applications</option>
+            <option>Robotics &amp; Physical AI</option>
+            <option>Enterprise AI</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div>
+          <label for="a_fulltime">Full-time on this?</label>
+          <select id="a_fulltime" name="full_time">
+            <option value="">Select…</option>
+            <option>Yes — full-time</option>
+            <option>Not yet</option>
+            <option>Planning to</option>
+          </select>
+        </div>
+        <div class="af-full">
+          <label for="a_building">What are you building?</label>
+          <textarea id="a_building" name="building" placeholder="The one-liner, then the substance." required></textarea>
+        </div>
+        <div class="af-full">
+          <label for="a_token">Your agent-native / token-native angle</label>
+          <textarea id="a_token" name="token_angle" placeholder="Why this is built for the agent era."></textarea>
+        </div>
+        <div class="af-full">
+          <label for="a_progress">Traction / progress so far</label>
+          <textarea id="a_progress" name="progress" placeholder="Users, revenue, demos, prototypes — whatever's real."></textarea>
+        </div>
+        <div class="af-full">
+          <label for="a_team">Team &amp; co-founders</label>
+          <textarea id="a_team" name="team" placeholder="Who's building this, and how you know each other."></textarea>
+        </div>
+        <div class="af-full">
+          <label for="a_why">Why are you the team to build this?</label>
+          <textarea id="a_why" name="why_you" placeholder="Unfair advantage, founder-market fit, obsession."></textarea>
+        </div>
+        <div>
+          <label for="a_deck">Deck / memo URL</label>
+          <input id="a_deck" name="deck_url" type="text" placeholder="Optional link">
+        </div>
+        <div>
+          <label for="a_referral">How'd you hear about us?</label>
+          <input id="a_referral" name="referral" type="text" placeholder="Optional">
+        </div>
+        <div class="af-full">
+          <label for="a_else">Anything else?</label>
+          <textarea id="a_else" name="anything_else" placeholder="Optional"></textarea>
+        </div>
+        <button id="applyBtn" type="submit">Apply <span class="arr">→</span></button>
+        <div id="applyMsg" role="status" aria-live="polite"></div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="fbrand">
+        <a href="/" data-magnetic><img class="fbrand-logo" src="/assets/logo-white.png" alt="Beta Fund"></a>
+        <p>The fund for the agent-native era. $200K first check, up to $2M across pre-seed and seed. Global.</p>
+      </div>
+      <div class="fcol">
+        <div class="ftitle">Navigate</div>
+        <div class="flist">
+          <a href="/thesis">RFE</a>
+          <a href="/companies">Companies</a>
+          <a href="/fellowship">Fellowship</a>
+          <a href="/apply">Apply</a>
+        </div>
+      </div>
+      <div class="fcol">
+        <div class="ftitle">Connect</div>
+        <div class="flist">
+          <a href="https://www.linkedin.com/company/betafund/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="/apply">Llama Beta Fellowship</a>
+        </div>
+      </div>
+      <div class="fcol">
+        <div class="ftitle">Offices</div>
+        <div class="offices">
+          <div><span class="city">San Francisco</span>39 Tehama St, CA 94105</div>
+          <div><span class="city">Palo Alto</span>555 Hamilton Ave, CA 94301</div>
+          <div><span class="city">Sunnyvale</span>880 W Maude Ave, CA 94085</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Beta Fund</span>
+      <span>We invest where conviction begins</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/site.js"></script>
+</body>
+</html>
